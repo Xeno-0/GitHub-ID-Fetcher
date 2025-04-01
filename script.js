@@ -13,7 +13,7 @@ function searchId() {
         } else{
             document.getElementById("res").innerHTML = `
                 <img src = "${data.avatar_url} style="width:25%" id="pfp">
-                <p class="userDetails">${data.name}</p>
+                <p id="userName">${data.name}</p>
                 <p class="userDetails">${data.followers} Followers , ${data.following} Following</p>
                 <p class="userDetails"><i class="fa-solid fa-location-dot"></i>  ${data.location}</p>
                 <p class="userDetails">${data.bio}</p>
